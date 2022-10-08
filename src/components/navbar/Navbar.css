@@ -1,0 +1,23 @@
+/* @media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: 0.75em;
+  padding-left: 0.75em;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+.navbar__personal {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.navbar__personal > img {
+  width: 139px;
+  height: 38px;
+}
