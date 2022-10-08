@@ -1,12 +1,22 @@
-.popular-movie {
+.filtered {
   position: relative;
   margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.popular-movie > span {
+.filtered > span {
   color: #ffffff;
   font-size: 26px;
   font-weight: 700;
+}
+
+.popular-movie {
+  overflow-x: auto;
+  scroll-snap-align: center;
+  padding-right: unset;
 }
 
 .popular-movie .movie-list {

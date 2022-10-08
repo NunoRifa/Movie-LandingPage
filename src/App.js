@@ -18,27 +18,27 @@ function App() {
     {
       id: "mo001",
       movieName: "https://imgur.com/XnDssRn.png",
-      releaseYear: "2021",
+      date: new Date(2021, 9, 11),
     },
     {
       id: "mo002",
       movieName: "https://imgur.com/fy8ZCTI.png",
-      releaseYear: "2020",
+      date: new Date(2020, 7, 14),
     },
     {
       id: "mo003",
       movieName: "https://imgur.com/N2E27JM.png",
-      releaseYear: "2020",
+      date: new Date(2020, 3, 10),
     },
     {
       id: "mo004",
       movieName: "https://imgur.com/DBYYCkw.png",
-      releaseYear: "2021",
+      date: new Date(2021, 5, 22),
     },
     {
       id: "mo005",
       movieName: "https://imgur.com/Xt1Lr0y.png",
-      releaseYear: "2022",
+      date: new Date(2022, 9, 22),
     },
   ];
 
