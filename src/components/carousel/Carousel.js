@@ -1,10 +1,10 @@
 import MovieInfo from "../movie-info/MovieInfo";
 import "./Carousel.css";
 
-const Carousel = () => {
+const Carousel = (props) => {
   return (
     <div className="carousel__personal">
-      <MovieInfo />
+      <MovieInfo items={props.onDataMovie} />
     </div>
   );
 };

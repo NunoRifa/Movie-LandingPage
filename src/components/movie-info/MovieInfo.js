@@ -6,7 +6,7 @@ import Info from "../../img/Info.svg";
 
 import "./MovieInfo.css";
 
-const MovieInfo = () => {
+const MovieInfo = (props) => {
   return (
     <>
       <div className="n-series">
@@ -17,13 +17,9 @@ const MovieInfo = () => {
       </div>
       <div className="rate-on">
         <img src={Top10} alt="Top10" />
-        <div className="show-on">#1 in TV Shows Today</div>
+        <div className="show-on">{props.items.top10}</div>
       </div>
-      <div className="movie-description">
-        Determined to protect a young patient who escaped a mysterious cult, a
-        psychiatrist takes the girl in, putting her own family — and life — in
-        danger.
-      </div>
+      <div className="movie-description">{props.items.sinopsis}</div>
       <div className="play-more">
         <div className="play">
           <img src={Polygon} alt="polygon" />
