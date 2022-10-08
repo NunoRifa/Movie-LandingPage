@@ -44,6 +44,9 @@ function App() {
 
   return (
     <div className="App">
+      <div className="background">
+        <img src="https://imgur.com/qQT9jrl.png" alt="background" />
+      </div>
       <Container>
         <Navbar />
         <Carousel onDataMovie={dataMovie} />

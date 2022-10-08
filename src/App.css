@@ -20,4 +20,17 @@
     rgba(0, 0, 0, 0.6) 0%,
     rgba(255, 255, 255, 0) 100%
   );
+  overflow: hidden;
+}
+
+.App .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.App .background > img {
+  object-fit: cover;
+  width: 100vw;
+  z-index: 0;
 }

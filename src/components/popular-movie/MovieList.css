@@ -1,5 +1,7 @@
 .movie-list {
+  position: relative;
   margin-top: 0.25em;
+  z-index: 1;
 }
 
 .movie-list > img {
