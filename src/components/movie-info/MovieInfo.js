@@ -1,5 +1,4 @@
 import NSeriesLogo from "../../img/NSeriesOriginals.svg";
-import MovieLogo from "../../img/ShowLogo.svg";
 import Polygon from "../../img/Polygon.svg";
 import Top10 from "../../img/Top10.svg";
 import Info from "../../img/Info.svg";
@@ -13,7 +12,7 @@ const MovieInfo = (props) => {
         <img src={NSeriesLogo} alt="n-series" />
       </div>
       <div className="movie-logo">
-        <img src={MovieLogo} alt="movie-logo" />
+        <img src={props.items.movieName} alt="movie-logo" />
       </div>
       <div className="rate-on">
         <img src={Top10} alt="Top10" />
