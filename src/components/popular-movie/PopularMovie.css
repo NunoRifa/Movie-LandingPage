@@ -1,0 +1,17 @@
+.popular-movie {
+  position: relative;
+  margin-top: 1em;
+}
+
+.popular-movie > span {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.popular-movie .movie-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25em;
+}

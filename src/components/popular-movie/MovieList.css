@@ -1,0 +1,16 @@
+.movie-list {
+  margin-top: 0.75em;
+}
+
+.movie-list > img {
+  width: 250px;
+  height: 140px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.movie-list > img:hover {
+  width: 280px;
+  height: 158px;
+}
