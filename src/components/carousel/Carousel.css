@@ -1,0 +1,7 @@
+.carousel__personal {
+  position: relative;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+}
