@@ -1,0 +1,27 @@
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding-right: 0.5em;
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 18px;
+  text-align: right;
+  line-height: inherit;
+  cursor: inherit;
+  outline: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+option {
+  color: #000000;
+  font-weight: 18px;
+  font-weight: 600;
+}
